@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./c_style.css">
+        <title>Contact page</title>
+        <center><h1>Detail Submission</h1></center>
+    </head>
+    <script>
+        function showAlert(){
+            alert("Submit Button clicked");
+        }
+    </script>
+    <body class="bg">        
+            <form>
+                <div class="box">
+
+                    <div style="padding-right: 60px;">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" required>
+                    </div>                    
+
+                    <div style="padding-right: 60px;">
+
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" required>
+
+                    </div>
+
+                    <div>
+                        <label>Phone Number: </label>
+                        <input type="text" name="phno">
+                        
+                    </div>
+                    <div style="padding-top: 10px; padding-right: 100px;">
+                        <label>Gender: </label>
+                            <input type="checkbox" name="Male" value="Male"/>Male
+                            <input type="checkbox" name="Female" value="Female"/>Female
+                            <input type="checkbox" name="Other" value="Other"/>Other                        
+                    </div>
+
+                    <div class="dob">
+                        <label>DOB:  </label>
+                        <input type="date" name="dt">
+                    </div>                            
+                                
+
+                    <div class="dept">
+                        <label for="Department">Department: </label>
+                        <select name="Department" id="Department">
+                            <option value="select option">Choose Option</option>
+                            <option value="CSE">CSE:Computer Science Engineering</option>
+                            <option value="ECE">ECE:Electronics Engineering</option>
+                            <option value="CE">CE:Civil Engineering</option>
+                            <option value="EEE">EEE:Electrical and Electronics Engineering</option>
+                            <option value="ME">ME:Mechanical Engineering</option>
+                        </select>
+                    </div>
+        
+                    <button type="button" value="submit" onclick="showAlert()" name="Send Message">Submit</button>
+                    <!--<input type="submit" value="submit" onclick="showAlert()" name="Send Message">-->
+                </div>
+
+                <div class="con">
+                    <p>CONTACT ME</p>
+                    <div class="det">
+                        <img src="gmail-logo.jpg" height="50px" width="50px">
+                        <img src="github.png" height="50px" width="50px">
+                        <p>email:rosejacob2003@gmail.com<br>https://github.com/Rose30330/Rose30330.github.io<br>Phno:9539007772</p>
+                    </div>                    
+                </div>
+            </form>      
+    </body>
+</html>

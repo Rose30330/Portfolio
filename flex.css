@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    align-content: space-between;
+    margin-top: 300px;
+    box-shadow: 0 2px 4px rgb(99, 98, 98);
+}
+.item{
+    width: 300px;
+    height: 100px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgb(255, 204, 127);
+    margin: 10px;
+    line-height: 100px;
+    color: black;
+    padding-left: 20px;
+}

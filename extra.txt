@@ -1,0 +1,26 @@
+ .container{
+    display: flex;
+    margin: 0 5px;
+}
+.container div{
+    background-color: white;
+    margin: 5px;
+    /*** Just to center the text ***/
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+<!--<div class="container">
+            <img src="tictac.jpg" height="50px" width="50px">
+            <div class="item">Tic Tac Toe game using Python</div>
+        </div>
+        <div class="container">
+            <div class="item">Registration form using HTML</div>
+        </div>
+        <div class="container">
+            <div class="item">Library Management using python and MySQL</div>
+        </div>
+        <div class="container">
+            <div class="item">Railway Mangement using JAVA</div>
+        </div>-->

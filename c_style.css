@@ -1,0 +1,73 @@
+
+.bg{
+    background-color: rgb(202, 195, 183);
+}
+
+.box{
+    text-align: center;
+
+}
+.con{
+    align-content: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.det{
+    text-align: center;
+    font-size: medium;
+}
+
+.dob{
+    width:200px;
+    padding:10px;
+    margin: 5px 0;
+    border: 1px none;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    padding-left: 570px;
+    text-overflow: none;
+    width: 200px;
+}
+
+.dept{
+    padding-left: 570px;
+    width: 100px;
+    height: 50px;
+    text-overflow: none;
+}
+
+input[type="email"]{
+    width:200px;
+    padding:10px;
+    margin: 5px 0;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+    text-overflow: none;
+}
+input[type="text"]{
+    width:200px;
+    padding:10px;
+    margin: 5px 0;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+}
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-content: center;
+    text-align: center;
+}
+input[type="submit"]:hover,
+
+button:hover{
+    background-color: rgb(0, 137, 137);
+    border-radius: 15px;
+}
